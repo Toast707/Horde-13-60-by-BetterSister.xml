@@ -1,0 +1,2112 @@
+﻿<?xml version="1.0" encoding="utf-16"?>
+<EasyQuestProfile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <QuestsSorted>
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="Wait" NameClass="10000" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.AddBlackListZone(new Vector3(67.6824f, -2098f, 91.66635f), 80, false);" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.AddBlackListZone(new Vector3(-1482.049f, -3656.964f, 92.19449f), 40, false);" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.CurrentSetting.UseMount = true" />
+    <QuestsSorted Action="PickUp" NameClass="ConscriptoftheHorde" />
+    <QuestsSorted Action="TurnIn" NameClass="ConscriptoftheHorde" />
+    <QuestsSorted Action="PickUp" NameClass="CrossroadsConscription" />
+    <QuestsSorted Action="PickUp" NameClass="RaptorThieves" />
+    <QuestsSorted Action="Pulse" NameClass="crossroadsfp" />
+    <QuestsSorted Action="PickUp" NameClass="FungalSpores" />
+    <QuestsSorted Action="PickUp" NameClass="DEPRICATEDWharfmasterDizzywig" />
+    <QuestsSorted Action="PickUp" NameClass="DisrupttheAttacks" />
+    <QuestsSorted Action="PickUp" NameClass="HarpyRaiders" />
+    <QuestsSorted Action="TurnIn" NameClass="CrossroadsConscription" />
+    <QuestsSorted Action="PickUp" NameClass="PlainstriderMenace" />
+    <QuestsSorted Action="Pulse" NameClass="PlainstriderMenace" />
+    <QuestsSorted Action="Pulse" NameClass="DisrupttheAttacks" />
+    <QuestsSorted Action="Pulse" NameClass="RaptorThieves" />
+    <QuestsSorted Action="TurnIn" NameClass="RaptorThieves" />
+    <QuestsSorted Action="TurnIn" NameClass="DisrupttheAttacks" />
+    <QuestsSorted Action="TurnIn" NameClass="PlainstriderMenace" />
+    <QuestsSorted Action="PickUp" NameClass="TheZhevra" />
+    <QuestsSorted Action="Pulse" NameClass="grindto14" />
+    <QuestsSorted Action="Pulse" NameClass="TheZhevra" />
+    <QuestsSorted Action="Pulse" NameClass="FungalSpores" />
+    <QuestsSorted Action="Pulse" NameClass="HarpyRaiders" />
+    <QuestsSorted Action="TurnIn" NameClass="FungalSpores" />
+    <QuestsSorted Action="TurnIn" NameClass="HarpyRaiders" />
+    <QuestsSorted Action="TurnIn" NameClass="TheZhevra" />
+    <QuestsSorted Action="PickUp" NameClass="ProwlersoftheBarrens" />
+    <QuestsSorted Action="Pulse" NameClass="ProwlersoftheBarrens" />
+    <QuestsSorted Action="TurnIn" NameClass="ProwlersoftheBarrens" />
+    <QuestsSorted Action="PickUp" NameClass="SouthseaFreebooters" />
+    <QuestsSorted Action="Pulse" NameClass="RatchetFp" />
+    <QuestsSorted Action="Pulse" NameClass="Grind1518" />
+    <QuestsSorted Action="TurnIn" NameClass="SouthseaFreebooters" />
+    <QuestsSorted Action="TurnIn" NameClass="DEPRECATEDTheMissingShipment" />
+    <QuestsSorted Action="TurnIn" NameClass="DEPRICATEDWharfmasterDizzywig" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 18 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893ff)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(311.352f, -4827.79f, 9.579893f), 3169, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 18 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 18" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="taurajofp" />
+    <QuestsSorted Action="PickUp" NameClass="TribesatWar" />
+    <QuestsSorted Action="Pulse" NameClass="TribesatWar" />
+    <QuestsSorted Action="TurnIn" NameClass="TribesatWar" />
+    <QuestsSorted Action="Pulse" NameClass="Grind1825" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 25 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(311.352f, -4827.79f, 9.579893f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(311.352f, -4827.79f, 9.579893f), 3169, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 25" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &lt; 5000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 25 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="PickUp" NameClass="CallofWater" />
+    <QuestsSorted Action="Pulse" NameClass="CallofFire2" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(-269.97f, -4000.87f, 168.218)) &gt; 15 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-269.97f, -4000.87f, 168.218)) &lt; 4500 &amp;&amp; ObjectManager.Me.Level == 25" />
+    <QuestsSorted Action="RunCode" NameClass="var path = new List&lt;Vector3&gt;() {&#xD;&#xA;new Vector3(304.6243f, -4837.853f, 10.52344f, &quot;None&quot;),&#xD;&#xA;new Vector3(300.4803f, -4832.937f, 10.52363f, &quot;None&quot;),&#xD;&#xA;new Vector3(298.1655f, -4830.204f, 10.52363f, &quot;None&quot;),&#xD;&#xA;new Vector3(295.2555f, -4823.774f, 10.52379f, &quot;None&quot;),&#xD;&#xA;new Vector3(294.3278f, -4820.371f, 10.52383f, &quot;None&quot;),&#xD;&#xA;new Vector3(293.8574f, -4816.84f, 10.52383f, &quot;None&quot;),&#xD;&#xA;new Vector3(295.5026f, -4809.997f, 10.51645f, &quot;None&quot;),&#xD;&#xA;new Vector3(300.3226f, -4804.982f, 10.52238f, &quot;None&quot;),&#xD;&#xA;new Vector3(306.4333f, -4801.385f, 10.51969f, &quot;None&quot;),&#xD;&#xA;new Vector3(310.2276f, -4795.692f, 10.52266f, &quot;None&quot;),&#xD;&#xA;new Vector3(309.0363f, -4788.693f, 10.52266f, &quot;None&quot;),&#xD;&#xA;new Vector3(308.4784f, -4785.231f, 10.52266f, &quot;None&quot;),&#xD;&#xA;new Vector3(307.9093f, -4781.699f, 10.52266f, &quot;None&quot;),&#xD;&#xA;new Vector3(307.3513f, -4778.237f, 10.52266f, &quot;None&quot;),&#xD;&#xA;new Vector3(306.8098f, -4774.68f, 9.36781f, &quot;None&quot;),&#xD;&#xA;new Vector3(306.3198f, -4771.207f, 9.466296f, &quot;None&quot;),&#xD;&#xA;new Vector3(305.8203f, -4767.666f, 9.423895f, &quot;None&quot;),&#xD;&#xA;new Vector3(305.3294f, -4764.186f, 9.399489f, &quot;None&quot;),&#xD;&#xA;new Vector3(304.8284f, -4760.635f, 9.39978f, &quot;None&quot;),&#xD;&#xA;new Vector3(304.3385f, -4757.162f, 9.39978f, &quot;None&quot;),&#xD;&#xA;new Vector3(303.8389f, -4753.62f, 9.396333f, &quot;None&quot;),&#xD;&#xA;new Vector3(303.1599f, -4746.522f, 9.465597f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.64f, -4739.45f, 9.456675f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.5845f, -4732.373f, 9.433458f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.6522f, -4728.863f, 9.584496f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.7264f, -4725.308f, 9.755069f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.8001f, -4721.773f, 10.02575f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.8716f, -4718.184f, 10.26553f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.6382f, -4714.568f, 10.71338f, &quot;None&quot;),&#xD;&#xA;new Vector3(302.0037f, -4711.101f, 10.9019f, &quot;None&quot;),&#xD;&#xA;new Vector3(300.9731f, -4707.667f, 10.98171f, &quot;None&quot;),&#xD;&#xA;new Vector3(298.0854f, -4701.2f, 11.32007f, &quot;None&quot;),&#xD;&#xA;new Vector3(296.3963f, -4698.118f, 11.33533f, &quot;None&quot;),&#xD;&#xA;new Vector3(294.6736f, -4694.976f, 11.47127f, &quot;None&quot;),&#xD;&#xA;new Vector3(292.9794f, -4691.885f, 11.39247f, &quot;None&quot;),&#xD;&#xA;new Vector3(291.2639f, -4688.755f, 11.41652f, &quot;None&quot;),&#xD;&#xA;new Vector3(287.7662f, -4682.587f, 11.46649f, &quot;None&quot;),&#xD;&#xA;new Vector3(283.9524f, -4676.61f, 11.50951f, &quot;None&quot;),&#xD;&#xA;new Vector3(282.069f, -4673.66f, 11.55122f, &quot;None&quot;),&#xD;&#xA;new Vector3(280.1404f, -4670.639f, 11.56692f, &quot;None&quot;),&#xD;&#xA;new Vector3(278.2383f, -4667.659f, 11.60854f, &quot;None&quot;),&#xD;&#xA;new Vector3(276.3172f, -4664.65f, 11.60433f, &quot;None&quot;),&#xD;&#xA;new Vector3(274.4301f, -4661.694f, 11.64671f, &quot;None&quot;),&#xD;&#xA;new Vector3(272.4946f, -4658.663f, 11.66425f, &quot;None&quot;),&#xD;&#xA;new Vector3(270.5972f, -4655.69f, 11.68083f, &quot;None&quot;),&#xD;&#xA;new Vector3(268.6725f, -4652.675f, 11.71216f, &quot;None&quot;),&#xD;&#xA;new Vector3(264.8605f, -4646.704f, 11.75514f, &quot;None&quot;),&#xD;&#xA;new Vector3(261.5806f, -4640.415f, 11.79792f, &quot;None&quot;),&#xD;&#xA;new Vector3(258.46f, -4634.056f, 11.85267f, &quot;None&quot;),&#xD;&#xA;new Vector3(257.205f, -4630.723f, 11.91494f, &quot;None&quot;),&#xD;&#xA;new Vector3(256.3122f, -4627.312f, 12.08754f, &quot;None&quot;),&#xD;&#xA;new Vector3(255.6187f, -4623.803f, 12.26354f, &quot;None&quot;),&#xD;&#xA;new Vector3(254.7826f, -4620.356f, 12.41978f, &quot;None&quot;),&#xD;&#xA;new Vector3(253.4499f, -4617.113f, 12.52052f, &quot;None&quot;),&#xD;&#xA;new Vector3(251.8741f, -4613.906f, 12.76853f, &quot;None&quot;),&#xD;&#xA;new Vector3(248.7373f, -4607.547f, 13.09457f, &quot;None&quot;),&#xD;&#xA;new Vector3(247.1921f, -4604.414f, 13.33437f, &quot;None&quot;),&#xD;&#xA;new Vector3(245.6048f, -4601.196f, 13.45771f, &quot;None&quot;),&#xD;&#xA;new Vector3(244.0441f, -4598.032f, 13.61193f, &quot;None&quot;),&#xD;&#xA;new Vector3(242.4587f, -4594.818f, 13.94961f, &quot;None&quot;),&#xD;&#xA;new Vector3(240.9089f, -4591.676f, 13.96977f, &quot;None&quot;),&#xD;&#xA;new Vector3(239.3266f, -4588.468f, 14.10649f, &quot;None&quot;),&#xD;&#xA;new Vector3(237.769f, -4585.31f, 14.15718f, &quot;None&quot;),&#xD;&#xA;new Vector3(236.1852f, -4582.099f, 14.20655f, &quot;None&quot;),&#xD;&#xA;new Vector3(233.0441f, -4575.731f, 14.3215f, &quot;None&quot;),&#xD;&#xA;new Vector3(229.9073f, -4569.372f, 14.43785f, &quot;None&quot;),&#xD;&#xA;new Vector3(226.7659f, -4563.002f, 14.855f, &quot;None&quot;),&#xD;&#xA;new Vector3(223.6545f, -4556.695f, 15.41889f, &quot;None&quot;),&#xD;&#xA;new Vector3(222.0845f, -4553.512f, 15.73368f, &quot;None&quot;),&#xD;&#xA;new Vector3(220.4929f, -4550.285f, 16.06207f, &quot;None&quot;),&#xD;&#xA;new Vector3(218.9477f, -4547.152f, 16.36783f, &quot;None&quot;),&#xD;&#xA;new Vector3(217.3624f, -4543.938f, 16.67495f, &quot;None&quot;),&#xD;&#xA;new Vector3(215.772f, -4540.714f, 17.00039f, &quot;None&quot;),&#xD;&#xA;new Vector3(212.6652f, -4534.416f, 17.81403f, &quot;None&quot;),&#xD;&#xA;new Vector3(211.0798f, -4531.201f, 18.2506f, &quot;None&quot;),&#xD;&#xA;new Vector3(208.0589f, -4524.788f, 19.42015f, &quot;None&quot;),&#xD;&#xA;new Vector3(206.4887f, -4521.52f, 20.16328f, &quot;None&quot;),&#xD;&#xA;new Vector3(204.8646f, -4518.491f, 20.95597f, &quot;None&quot;),&#xD;&#xA;new Vector3(203.115f, -4515.27f, 21.90241f, &quot;None&quot;),&#xD;&#xA;new Vector3(201.4681f, -4512.237f, 22.83928f, &quot;None&quot;),&#xD;&#xA;new Vector3(199.7477f, -4509.069f, 23.84949f, &quot;None&quot;),&#xD;&#xA;new Vector3(198.0507f, -4505.944f, 24.84462f, &quot;None&quot;),&#xD;&#xA;new Vector3(196.3336f, -4502.782f, 25.84256f, &quot;None&quot;),&#xD;&#xA;new Vector3(194.6559f, -4499.692f, 26.78433f, &quot;None&quot;),&#xD;&#xA;new Vector3(192.9489f, -4496.549f, 27.70634f, &quot;None&quot;),&#xD;&#xA;new Vector3(191.2953f, -4493.504f, 28.54961f, &quot;None&quot;),&#xD;&#xA;new Vector3(189.5559f, -4490.301f, 29.41044f, &quot;None&quot;),&#xD;&#xA;new Vector3(187.8889f, -4487.231f, 30.23463f, &quot;None&quot;),&#xD;&#xA;new Vector3(186.1685f, -4484.063f, 31.04511f, &quot;None&quot;),&#xD;&#xA;new Vector3(184.5115f, -4481.012f, 31.80336f, &quot;None&quot;),&#xD;&#xA;new Vector3(181.1576f, -4474.836f, 33.19469f, &quot;None&quot;),&#xD;&#xA;new Vector3(179.3971f, -4471.594f, 33.84731f, &quot;None&quot;),&#xD;&#xA;new Vector3(176.0443f, -4465.421f, 34.92662f, &quot;None&quot;),&#xD;&#xA;new Vector3(174.3439f, -4462.29f, 35.33403f, &quot;None&quot;),&#xD;&#xA;new Vector3(172.6302f, -4459.134f, 35.62242f, &quot;None&quot;),&#xD;&#xA;new Vector3(170.9499f, -4456.04f, 35.82321f, &quot;None&quot;),&#xD;&#xA;new Vector3(169.2446f, -4452.899f, 35.91495f, &quot;None&quot;),&#xD;&#xA;new Vector3(167.571f, -4449.817f, 35.9354f, &quot;None&quot;),&#xD;&#xA;new Vector3(165.8639f, -4446.674f, 35.86118f, &quot;None&quot;),&#xD;&#xA;new Vector3(164.1702f, -4443.555f, 35.69947f, &quot;None&quot;),&#xD;&#xA;new Vector3(160.7895f, -4437.33f, 35.34862f, &quot;None&quot;),&#xD;&#xA;new Vector3(159.0724f, -4434.168f, 35.25612f, &quot;None&quot;),&#xD;&#xA;new Vector3(155.6951f, -4427.949f, 35.2901f, &quot;None&quot;),&#xD;&#xA;new Vector3(152.3177f, -4421.73f, 35.59151f, &quot;None&quot;),&#xD;&#xA;new Vector3(150.624f, -4418.611f, 35.81778f, &quot;None&quot;),&#xD;&#xA;new Vector3(148.9203f, -4415.474f, 36.08557f, &quot;None&quot;),&#xD;&#xA;new Vector3(147.25f, -4412.398f, 36.38323f, &quot;None&quot;),&#xD;&#xA;new Vector3(145.5368f, -4409.244f, 36.71327f, &quot;None&quot;),&#xD;&#xA;new Vector3(142.1451f, -4402.998f, 37.4868f, &quot;None&quot;),&#xD;&#xA;new Vector3(140.4647f, -4399.904f, 37.94745f, &quot;None&quot;),&#xD;&#xA;new Vector3(138.7944f, -4396.828f, 38.43234f, &quot;None&quot;),&#xD;&#xA;new Vector3(137.1007f, -4393.709f, 38.95825f, &quot;None&quot;),&#xD;&#xA;new Vector3(135.367f, -4390.517f, 39.54947f, &quot;None&quot;),&#xD;&#xA;new Vector3(131.9935f, -4384.305f, 41.04681f, &quot;None&quot;),&#xD;&#xA;new Vector3(130.3098f, -4381.204f, 41.89633f, &quot;None&quot;),&#xD;&#xA;new Vector3(128.5964f, -4378.049f, 42.78868f, &quot;None&quot;),&#xD;&#xA;new Vector3(126.9328f, -4374.986f, 43.69676f, &quot;None&quot;),&#xD;&#xA;new Vector3(125.2091f, -4371.812f, 44.6664f, &quot;None&quot;),&#xD;&#xA;new Vector3(123.5389f, -4368.737f, 45.61522f, &quot;None&quot;),&#xD;&#xA;new Vector3(121.8319f, -4365.593f, 46.56802f, &quot;None&quot;),&#xD;&#xA;new Vector3(120.195f, -4362.579f, 47.44628f, &quot;None&quot;),&#xD;&#xA;new Vector3(118.4478f, -4359.362f, 48.31197f, &quot;None&quot;),&#xD;&#xA;new Vector3(116.7608f, -4356.255f, 49.05168f, &quot;None&quot;),&#xD;&#xA;new Vector3(115.0672f, -4353.137f, 49.75963f, &quot;None&quot;),&#xD;&#xA;new Vector3(113.3768f, -4350.024f, 50.38003f, &quot;None&quot;),&#xD;&#xA;new Vector3(111.6699f, -4346.881f, 50.89726f, &quot;None&quot;),&#xD;&#xA;new Vector3(108.2725f, -4340.625f, 51.69011f, &quot;None&quot;),&#xD;&#xA;new Vector3(106.5989f, -4337.543f, 52.24664f, &quot;None&quot;),&#xD;&#xA;new Vector3(104.8918f, -4334.399f, 52.92628f, &quot;None&quot;),&#xD;&#xA;new Vector3(103.2282f, -4331.336f, 53.67922f, &quot;None&quot;),&#xD;&#xA;new Vector3(101.5127f, -4328.177f, 54.52121f, &quot;None&quot;),&#xD;&#xA;new Vector3(99.82385f, -4325.067f, 55.38338f, &quot;None&quot;),&#xD;&#xA;new Vector3(98.12015f, -4321.93f, 56.26002f, &quot;None&quot;),&#xD;&#xA;new Vector3(96.39639f, -4318.756f, 57.08327f, &quot;None&quot;),&#xD;&#xA;new Vector3(94.73277f, -4315.692f, 57.77615f, &quot;None&quot;),&#xD;&#xA;new Vector3(93.00902f, -4312.518f, 58.33059f, &quot;None&quot;),&#xD;&#xA;new Vector3(89.62832f, -4306.293f, 59.23542f, &quot;None&quot;),&#xD;&#xA;new Vector3(87.96136f, -4303.223f, 59.6257f, &quot;None&quot;),&#xD;&#xA;new Vector3(86.23426f, -4300.043f, 59.98449f, &quot;None&quot;),&#xD;&#xA;new Vector3(84.56062f, -4296.961f, 60.31153f, &quot;None&quot;),&#xD;&#xA;new Vector3(82.85023f, -4293.812f, 60.62767f, &quot;None&quot;),&#xD;&#xA;new Vector3(81.17657f, -4290.729f, 60.91059f, &quot;None&quot;),&#xD;&#xA;new Vector3(79.46284f, -4287.574f, 61.17683f, &quot;None&quot;),&#xD;&#xA;new Vector3(76.0842f, -4281.353f, 61.63087f, &quot;None&quot;),&#xD;&#xA;new Vector3(74.40721f, -4278.265f, 61.80223f, &quot;None&quot;),&#xD;&#xA;new Vector3(72.68011f, -4275.084f, 61.93901f, &quot;None&quot;),&#xD;&#xA;new Vector3(71.00647f, -4272.002f, 62.01429f, &quot;None&quot;),&#xD;&#xA;new Vector3(69.29608f, -4268.853f, 62.07634f, &quot;None&quot;),&#xD;&#xA;new Vector3(65.91315f, -4262.621f, 62.18255f, &quot;None&quot;),&#xD;&#xA;new Vector3(64.23708f, -4259.479f, 62.34209f, &quot;None&quot;),&#xD;&#xA;new Vector3(60.92669f, -4253.208f, 63.02858f, &quot;None&quot;),&#xD;&#xA;new Vector3(59.26986f, -4250.069f, 63.60465f, &quot;None&quot;),&#xD;&#xA;new Vector3(57.6359f, -4246.974f, 64.2071f, &quot;None&quot;),&#xD;&#xA;new Vector3(55.9562f, -4243.792f, 64.71196f, &quot;None&quot;),&#xD;&#xA;new Vector3(52.69326f, -4237.611f, 65.23696f, &quot;None&quot;),&#xD;&#xA;new Vector3(50.98415f, -4234.374f, 65.33154f, &quot;None&quot;),&#xD;&#xA;new Vector3(49.17545f, -4231.346f, 65.3978f, &quot;None&quot;),&#xD;&#xA;new Vector3(47.4412f, -4228.282f, 65.33794f, &quot;None&quot;),&#xD;&#xA;new Vector3(45.61038f, -4225.193f, 65.17061f, &quot;None&quot;),&#xD;&#xA;new Vector3(41.99504f, -4219.117f, 65.77402f, &quot;None&quot;),&#xD;&#xA;new Vector3(38.41193f, -4213.096f, 65.39506f, &quot;None&quot;),&#xD;&#xA;new Vector3(36.5792f, -4210.016f, 65.68861f, &quot;None&quot;),&#xD;&#xA;new Vector3(34.73507f, -4206.916f, 66.08705f, &quot;None&quot;),&#xD;&#xA;new Vector3(31.10621f, -4200.818f, 66.98956f, &quot;None&quot;),&#xD;&#xA;new Vector3(29.28065f, -4197.75f, 67.5433f, &quot;None&quot;),&#xD;&#xA;new Vector3(27.50877f, -4194.772f, 68.15292f, &quot;None&quot;),&#xD;&#xA;new Vector3(25.67963f, -4191.698f, 68.82858f, &quot;None&quot;),&#xD;&#xA;new Vector3(23.84306f, -4188.612f, 69.56974f, &quot;None&quot;),&#xD;&#xA;new Vector3(22.05122f, -4185.605f, 70.34386f, &quot;None&quot;),&#xD;&#xA;new Vector3(20.06724f, -4182.596f, 71.11952f, &quot;None&quot;),&#xD;&#xA;new Vector3(18.11135f, -4179.71f, 71.70534f, &quot;None&quot;),&#xD;&#xA;new Vector3(16.08871f, -4176.726f, 72.25663f, &quot;None&quot;),&#xD;&#xA;new Vector3(14.1289f, -4173.834f, 72.76526f, &quot;None&quot;),&#xD;&#xA;new Vector3(12.15731f, -4170.926f, 73.43344f, &quot;None&quot;),&#xD;&#xA;new Vector3(10.15017f, -4167.964f, 73.86317f, &quot;None&quot;),&#xD;&#xA;new Vector3(8.123594f, -4164.975f, 74.22265f, &quot;None&quot;),&#xD;&#xA;new Vector3(6.140222f, -4162.048f, 74.60083f, &quot;None&quot;),&#xD;&#xA;new Vector3(4.135355f, -4159.09f, 75.14751f, &quot;None&quot;),&#xD;&#xA;new Vector3(2.136273f, -4156.141f, 75.79203f, &quot;None&quot;),&#xD;&#xA;new Vector3(-1.81869f, -4150.306f, 76.80768f, &quot;None&quot;),&#xD;&#xA;new Vector3(-3.825627f, -4147.345f, 77.19347f, &quot;None&quot;),&#xD;&#xA;new Vector3(-7.798377f, -4141.472f, 77.66069f, &quot;None&quot;),&#xD;&#xA;new Vector3(-7.034334f, -4134.584f, 77.30708f, &quot;None&quot;),&#xD;&#xA;new Vector3(-7.349197f, -4130.991f, 77.12614f, &quot;None&quot;),&#xD;&#xA;new Vector3(-9.712063f, -4124.31f, 76.89463f, &quot;None&quot;),&#xD;&#xA;new Vector3(-12.80192f, -4117.966f, 76.64233f, &quot;None&quot;),&#xD;&#xA;new Vector3(-14.37471f, -4114.746f, 76.3344f, &quot;None&quot;),&#xD;&#xA;new Vector3(-15.93214f, -4111.557f, 75.94584f, &quot;None&quot;),&#xD;&#xA;new Vector3(-17.45271f, -4108.443f, 75.30921f, &quot;None&quot;),&#xD;&#xA;new Vector3(-19.04393f, -4105.185f, 74.58447f, &quot;None&quot;),&#xD;&#xA;new Vector3(-20.57985f, -4102.041f, 73.82483f, &quot;None&quot;),&#xD;&#xA;new Vector3(-22.13728f, -4098.851f, 73.108f, &quot;None&quot;),&#xD;&#xA;new Vector3(-23.68856f, -4095.675f, 72.02199f, &quot;None&quot;),&#xD;&#xA;new Vector3(-25.24599f, -4092.486f, 70.85542f, &quot;None&quot;),&#xD;&#xA;new Vector3(-26.81571f, -4089.272f, 69.63688f, &quot;None&quot;),&#xD;&#xA;new Vector3(-28.39848f, -4086.033f, 68.54928f, &quot;None&quot;),&#xD;&#xA;new Vector3(-30.08168f, -4083.062f, 67.70827f, &quot;None&quot;),&#xD;&#xA;new Vector3(-32.12586f, -4080.025f, 67.10381f, &quot;None&quot;),&#xD;&#xA;new Vector3(-34.15188f, -4077.111f, 66.80885f, &quot;None&quot;),&#xD;&#xA;new Vector3(-36.26716f, -4074.288f, 66.78134f, &quot;None&quot;),&#xD;&#xA;new Vector3(-38.19623f, -4071.376f, 67.02433f, &quot;None&quot;),&#xD;&#xA;new Vector3(-38.11331f, -4067.794f, 66.94308f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.85302f, -4060.68f, 66.68137f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.59657f, -4053.67f, 66.30126f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.46527f, -4050.082f, 65.87549f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.3373f, -4046.584f, 65.3113f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.20601f, -4042.996f, 64.75124f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.07522f, -4039.421f, 64.27162f, &quot;None&quot;),&#xD;&#xA;new Vector3(-36.81569f, -4032.328f, 63.73195f, &quot;None&quot;),&#xD;&#xA;new Vector3(-36.72823f, -4028.803f, 63.73027f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.35158f, -4025.316f, 63.90184f, &quot;None&quot;),&#xD;&#xA;new Vector3(-37.97447f, -4021.851f, 64.06136f, &quot;None&quot;),&#xD;&#xA;new Vector3(-38.61346f, -4018.296f, 64.21598f, &quot;None&quot;),&#xD;&#xA;new Vector3(-39.23387f, -4014.844f, 64.31679f, &quot;None&quot;),&#xD;&#xA;new Vector3(-39.8679f, -4011.317f, 64.3631f, &quot;None&quot;),&#xD;&#xA;new Vector3(-40.49451f, -4007.83f, 64.35238f, &quot;None&quot;),&#xD;&#xA;new Vector3(-41.11368f, -4004.386f, 64.215f, &quot;None&quot;),&#xD;&#xA;new Vector3(-45.61947f, -3999.411f, 64.45283f, &quot;None&quot;),&#xD;&#xA;new Vector3(-48.86853f, -3997.849f, 64.62446f, &quot;None&quot;),&#xD;&#xA;new Vector3(-52.07973f, -3996.305f, 64.69324f, &quot;None&quot;),&#xD;&#xA;new Vector3(-58.13998f, -3992.64f, 64.47701f, &quot;None&quot;),&#xD;&#xA;new Vector3(-61.20586f, -3990.908f, 64.24269f, &quot;None&quot;),&#xD;&#xA;new Vector3(-64.32659f, -3989.146f, 63.95583f, &quot;None&quot;),&#xD;&#xA;new Vector3(-67.43513f, -3987.39f, 63.60905f, &quot;None&quot;),&#xD;&#xA;new Vector3(-70.48272f, -3985.669f, 63.17173f, &quot;None&quot;),&#xD;&#xA;new Vector3(-73.5425f, -3983.941f, 62.74797f, &quot;None&quot;),&#xD;&#xA;new Vector3(-76.66932f, -3982.175f, 62.32131f, &quot;None&quot;),&#xD;&#xA;new Vector3(-82.78887f, -3978.719f, 61.50687f, &quot;None&quot;),&#xD;&#xA;new Vector3(-85.95918f, -3977.088f, 61.11467f, &quot;None&quot;),&#xD;&#xA;new Vector3(-89.47699f, -3976.522f, 60.8177f, &quot;None&quot;),&#xD;&#xA;new Vector3(-92.89546f, -3975.62f, 60.49076f, &quot;None&quot;),&#xD;&#xA;new Vector3(-96.12924f, -3974.075f, 60.12527f, &quot;None&quot;),&#xD;&#xA;new Vector3(-103.0595f, -3972.776f, 59.53786f, &quot;None&quot;),&#xD;&#xA;new Vector3(-106.5808f, -3972.088f, 59.2423f, &quot;None&quot;),&#xD;&#xA;new Vector3(-109.9931f, -3966.031f, 58.54026f, &quot;None&quot;),&#xD;&#xA;new Vector3(-111.6205f, -3962.94f, 58.16306f, &quot;None&quot;),&#xD;&#xA;new Vector3(-113.8543f, -3960.255f, 56.00408f, &quot;None&quot;),&#xD;&#xA;new Vector3(-116.1463f, -3957.5f, 53.74356f, &quot;None&quot;),&#xD;&#xA;new Vector3(-119.0578f, -3955.417f, 53.63902f, &quot;None&quot;),&#xD;&#xA;new Vector3(-125.6324f, -3952.919f, 53.6388f, &quot;None&quot;),&#xD;&#xA;new Vector3(-132.4261f, -3951.263f, 53.84363f, &quot;None&quot;),&#xD;&#xA;new Vector3(-135.7486f, -3950.036f, 54.6056f, &quot;None&quot;),&#xD;&#xA;new Vector3(-139.001f, -3948.586f, 54.78876f, &quot;None&quot;),&#xD;&#xA;new Vector3(-141.6453f, -3946.293f, 54.02074f, &quot;None&quot;),&#xD;&#xA;new Vector3(-144.3583f, -3943.94f, 53.68233f, &quot;None&quot;),&#xD;&#xA;new Vector3(-149.7209f, -3939.29f, 52.83732f, &quot;None&quot;),&#xD;&#xA;new Vector3(-152.6229f, -3937.283f, 52.31855f, &quot;None&quot;),&#xD;&#xA;new Vector3(-155.7218f, -3935.656f, 51.85081f, &quot;None&quot;),&#xD;&#xA;new Vector3(-158.9136f, -3933.98f, 51.37092f, &quot;None&quot;),&#xD;&#xA;new Vector3(-162.0806f, -3932.317f, 50.8912f, &quot;None&quot;),&#xD;&#xA;new Vector3(-165.2167f, -3930.671f, 50.422f, &quot;None&quot;),&#xD;&#xA;new Vector3(-168.3899f, -3929.005f, 49.95869f, &quot;None&quot;),&#xD;&#xA;new Vector3(-175.1678f, -3927.415f, 49.43392f, &quot;None&quot;),&#xD;&#xA;new Vector3(-178.7399f, -3927.271f, 49.35435f, &quot;None&quot;),&#xD;&#xA;new Vector3(-182.2759f, -3927.262f, 49.50942f, &quot;None&quot;),&#xD;&#xA;new Vector3(-185.7752f, -3926.813f, 49.73357f, &quot;None&quot;),&#xD;&#xA;new Vector3(-189.3669f, -3926.724f, 50.37218f, &quot;None&quot;),&#xD;&#xA;new Vector3(-192.8806f, -3926.754f, 51.55286f, &quot;None&quot;),&#xD;&#xA;new Vector3(-196.3693f, -3927.359f, 53.52754f, &quot;None&quot;),&#xD;&#xA;new Vector3(-199.8328f, -3926.93f, 56.21609f, &quot;None&quot;),&#xD;&#xA;new Vector3(-203.4175f, -3926.487f, 59.37938f, &quot;None&quot;),&#xD;&#xA;new Vector3(-206.7199f, -3925.53f, 62.43843f, &quot;None&quot;),&#xD;&#xA;new Vector3(-209.6188f, -3923.408f, 65.32613f, &quot;None&quot;),&#xD;&#xA;new Vector3(-212.3265f, -3921.349f, 66.28737f, &quot;None&quot;),&#xD;&#xA;new Vector3(-215.3789f, -3919.24f, 67.63417f, &quot;None&quot;),&#xD;&#xA;new Vector3(-220.9214f, -3914.933f, 67.79253f, &quot;None&quot;),&#xD;&#xA;new Vector3(-223.6304f, -3912.631f, 67.19828f, &quot;None&quot;),&#xD;&#xA;new Vector3(-226.3083f, -3910.218f, 66.86678f, &quot;None&quot;),&#xD;&#xA;new Vector3(-228.9087f, -3907.885f, 68.75758f, &quot;None&quot;),&#xD;&#xA;new Vector3(-231.6476f, -3905.563f, 71.53974f, &quot;None&quot;),&#xD;&#xA;new Vector3(-234.3185f, -3903.237f, 74.70076f, &quot;None&quot;),&#xD;&#xA;new Vector3(-237.0226f, -3900.896f, 77.83396f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.7074f, -3898.667f, 79.84261f, &quot;None&quot;),&#xD;&#xA;new Vector3(-242.9232f, -3897.656f, 81.139f, &quot;None&quot;),&#xD;&#xA;new Vector3(-246.466f, -3898.31f, 81.26521f, &quot;None&quot;),&#xD;&#xA;new Vector3(-250.0263f, -3898.556f, 80.59681f, &quot;None&quot;),&#xD;&#xA;new Vector3(-253.4893f, -3898.627f, 81.56676f, &quot;None&quot;),&#xD;&#xA;new Vector3(-257.1167f, -3898.328f, 83.62178f, &quot;None&quot;),&#xD;&#xA;new Vector3(-260.5765f, -3898.024f, 86.26363f, &quot;None&quot;),&#xD;&#xA;new Vector3(-264.176f, -3897.846f, 89.60774f, &quot;None&quot;),&#xD;&#xA;new Vector3(-267.3259f, -3899.358f, 92.58245f, &quot;None&quot;),&#xD;&#xA;new Vector3(-269.3932f, -3902.249f, 93.53504f, &quot;None&quot;),&#xD;&#xA;new Vector3(-270.655f, -3905.488f, 94.78075f, &quot;None&quot;),&#xD;&#xA;new Vector3(-271.2377f, -3908.974f, 96.9053f, &quot;None&quot;),&#xD;&#xA;new Vector3(-269.1725f, -3911.761f, 99.54208f, &quot;None&quot;),&#xD;&#xA;new Vector3(-265.9018f, -3912.837f, 102.3521f, &quot;None&quot;),&#xD;&#xA;new Vector3(-262.6477f, -3911.537f, 104.374f, &quot;None&quot;),&#xD;&#xA;new Vector3(-259.6482f, -3909.733f, 106.0899f, &quot;None&quot;),&#xD;&#xA;new Vector3(-256.1961f, -3908.828f, 107.0118f, &quot;None&quot;),&#xD;&#xA;new Vector3(-252.6531f, -3908.549f, 107.2323f, &quot;None&quot;),&#xD;&#xA;new Vector3(-249.112f, -3908.173f, 107.129f, &quot;None&quot;),&#xD;&#xA;new Vector3(-243.7342f, -3911.677f, 104.7582f, &quot;None&quot;),&#xD;&#xA;new Vector3(-241.7948f, -3914.974f, 102.9228f, &quot;None&quot;),&#xD;&#xA;new Vector3(-240.4382f, -3918.349f, 102.8731f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.7645f, -3921.83f, 102.777f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.5789f, -3925.36f, 102.5781f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.4603f, -3928.503f, 104.4186f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.8516f, -3934.086f, 106.4283f, &quot;None&quot;),&#xD;&#xA;new Vector3(-240.4902f, -3939.147f, 108.6698f, &quot;None&quot;),&#xD;&#xA;new Vector3(-241.4036f, -3942.593f, 109.4671f, &quot;None&quot;),&#xD;&#xA;new Vector3(-242.7033f, -3945.834f, 110.5077f, &quot;None&quot;),&#xD;&#xA;new Vector3(-243.9183f, -3949.181f, 110.6526f, &quot;None&quot;),&#xD;&#xA;new Vector3(-244.613f, -3952.627f, 111.1908f, &quot;None&quot;),&#xD;&#xA;new Vector3(-244.7912f, -3956.198f, 111.6256f, &quot;None&quot;),&#xD;&#xA;new Vector3(-244.865f, -3959.691f, 113.1057f, &quot;None&quot;),&#xD;&#xA;new Vector3(-244.4881f, -3963.293f, 115.0745f, &quot;None&quot;),&#xD;&#xA;new Vector3(-243.0883f, -3966.442f, 117.0302f, &quot;None&quot;),&#xD;&#xA;new Vector3(-240.2877f, -3968.598f, 117.7517f, &quot;None&quot;),&#xD;&#xA;new Vector3(-236.8766f, -3969.526f, 117.6828f, &quot;None&quot;),&#xD;&#xA;new Vector3(-233.418f, -3970.271f, 116.6497f, &quot;None&quot;),&#xD;&#xA;new Vector3(-230.8059f, -3972.482f, 118.1168f, &quot;None&quot;),&#xD;&#xA;new Vector3(-228.7103f, -3975.199f, 119.6078f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.7236f, -3978.639f, 120.6655f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.501f, -3982.101f, 123.0551f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.4926f, -3985.691f, 125.7523f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.5984f, -3989.233f, 129.3288f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.7267f, -3992.815f, 132.9726f, &quot;None&quot;),&#xD;&#xA;new Vector3(-227.7408f, -3996.278f, 136.496f, &quot;None&quot;),&#xD;&#xA;new Vector3(-226.1675f, -3999.515f, 139.6706f, &quot;None&quot;),&#xD;&#xA;new Vector3(-224.4732f, -4002.586f, 142.5898f, &quot;None&quot;),&#xD;&#xA;new Vector3(-222.9317f, -4005.859f, 145.115f, &quot;None&quot;),&#xD;&#xA;new Vector3(-221.9398f, -4009.189f, 146.8911f, &quot;None&quot;),&#xD;&#xA;new Vector3(-221.0937f, -4012.678f, 148.2339f, &quot;None&quot;),&#xD;&#xA;new Vector3(-220.1822f, -4016.064f, 148.9043f, &quot;None&quot;),&#xD;&#xA;new Vector3(-220.1887f, -4019.576f, 150.3334f, &quot;None&quot;),&#xD;&#xA;new Vector3(-223.6012f, -4025.294f, 153.9745f, &quot;None&quot;),&#xD;&#xA;new Vector3(-225.8055f, -4028f, 155.4338f, &quot;None&quot;),&#xD;&#xA;new Vector3(-228.0609f, -4030.767f, 156.179f, &quot;None&quot;),&#xD;&#xA;new Vector3(-230.2731f, -4033.479f, 157.1993f, &quot;None&quot;),&#xD;&#xA;new Vector3(-232.7822f, -4036.081f, 157.3345f, &quot;None&quot;),&#xD;&#xA;new Vector3(-235.5681f, -4038.079f, 158.3505f, &quot;None&quot;),&#xD;&#xA;new Vector3(-239.1007f, -4038.986f, 159.9896f, &quot;None&quot;),&#xD;&#xA;new Vector3(-242.5958f, -4039.366f, 161.8775f, &quot;None&quot;),&#xD;&#xA;new Vector3(-246.0883f, -4038.556f, 164.8699f, &quot;None&quot;),&#xD;&#xA;new Vector3(-249.421f, -4037.469f, 168.1208f, &quot;None&quot;),&#xD;&#xA;new Vector3(-252.6922f, -4036.227f, 171.0195f, &quot;None&quot;),&#xD;&#xA;new Vector3(-255.998f, -4034.948f, 172.636f, &quot;None&quot;),&#xD;&#xA;new Vector3(-259.2769f, -4033.538f, 172.7897f, &quot;None&quot;),&#xD;&#xA;new Vector3(-264.1585f, -4028.492f, 170.8464f, &quot;None&quot;),&#xD;&#xA;new Vector3(-265.2579f, -4025.144f, 170.0115f, &quot;None&quot;),&#xD;&#xA;new Vector3(-265.6309f, -4021.603f, 169.6111f, &quot;None&quot;),&#xD;&#xA;new Vector3(-265.9068f, -4018.079f, 169.384f, &quot;None&quot;),&#xD;&#xA;new Vector3(-266.187f, -4014.499f, 169.2882f, &quot;None&quot;),&#xD;&#xA;new Vector3(-267.0222f, -4007.487f, 168.7756f, &quot;None&quot;),&#xD;&#xA;new Vector3(-267.6519f, -4003.918f, 169.1154f, &quot;None&quot;),&#xD;&#xA;};&#xD;&#xA;&#xD;&#xA;MovementManager.Go(path);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofFire2" />
+    <QuestsSorted Action="PickUp" NameClass="CallofFire41" />
+    <QuestsSorted Action="Pulse" NameClass="CallofFire41" />
+    <QuestsSorted Action="Pulse" NameClass="CallofFire42" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofFire41" />
+    <QuestsSorted Action="PickUp" NameClass="CallofFire5" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofFire5" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofWater" />
+    <QuestsSorted Action="PickUp" NameClass="CallofWater2" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofWater2" />
+    <QuestsSorted Action="PickUp" NameClass="CallofWater3" />
+    <QuestsSorted Action="Pulse" NameClass="CallofWater3" />
+    <QuestsSorted Action="TurnIn" NameClass="CallofWater3" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.AddBlackListZone(new Vector3(-4945.418f, -1907.63f, -46.27113f), 80, false);&#xD;&#xA;wManager.wManagerSetting.AddBlackListZone(new Vector3(-4944.269f, -1950.43f, -46.27113f), 80, false);&#xD;&#xA;wManager.wManagerSetting.AddBlackListZone(new Vector3(-4977.022f, -1997.246f, -46.27113f), 120, false);&#xD;&#xA;wManager.wManagerSetting.AddBlackListZone(new Vector3(-5065.377f, -2052.109f, -46.27113f), 80, false);" />
+    <QuestsSorted Action="Pulse" NameClass="grind2530" />
+    <QuestsSorted Action="PickUp" NameClass="MessagetoFreewindPost" />
+    <QuestsSorted Action="While" NameClass="Quest.HasQuest(4542) &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-5454.95f, -2442.79f, 90.19865f)) &gt; 20" />
+    <QuestsSorted Action="RunCode" NameClass="var path = new List&lt;Vector3&gt;() {&#xD;&#xA;new Vector3(-4699.548f, -1814.575f, -54.39355f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4706.343f, -1813.768f, -53.05107f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4711.977f, -1812.533f, -51.51423f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4717.353f, -1810.934f, -49.60307f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4722.792f, -1809.016f, -47.81788f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4728.05f, -1807.105f, -46.53721f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4733.503f, -1805.123f, -45.74489f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4738.846f, -1803.182f, -45.48024f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4744.168f, -1801.304f, -45.57091f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4749.544f, -1799.696f, -45.62189f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4755.133f, -1798.238f, -45.60827f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4760.68f, -1796.974f, -45.89035f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4766.286f, -1796.01f, -46.26516f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4771.822f, -1795.244f, -47.00302f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4777.585f, -1794.688f, -47.93663f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4783.256f, -1794.418f, -49.10164f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4788.934f, -1794.368f, -50.69457f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4794.53f, -1794.556f, -51.94818f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4800.254f, -1795.307f, -53.0178f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4805.551f, -1797.282f, -53.56496f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4810.743f, -1799.688f, -53.86732f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4815.68f, -1802.352f, -54.08496f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4820.718f, -1805.18f, -53.85363f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4825.601f, -1807.921f, -53.63525f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4830.64f, -1810.749f, -53.39665f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4835.543f, -1813.501f, -53.06896f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4840.583f, -1816.257f, -52.80438f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4845.725f, -1818.714f, -52.66432f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4851.194f, -1820.179f, -52.41379f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4856.663f, -1819.561f, -51.46796f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4862.031f, -1817.343f, -50.15714f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4867.092f, -1814.895f, -48.19622f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4872.206f, -1812.373f, -45.71705f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4877.274f, -1809.79f, -42.78161f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4882.12f, -1806.848f, -39.89235f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4886.682f, -1803.544f, -37.73372f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4891.37f, -1800.145f, -36.14369f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4895.839f, -1796.775f, -35.09401f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4900.283f, -1793.11f, -34.98167f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4904.629f, -1789.597f, -35.87734f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4909.111f, -1785.985f, -37.49103f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4913.535f, -1782.48f, -39.75585f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4918.215f, -1779.148f, -42.83347f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4922.827f, -1775.932f, -46.03022f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4927.679f, -1772.837f, -48.70687f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4932.619f, -1769.817f, -51.0811f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4937.435f, -1766.872f, -53.18486f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4942.308f, -1763.892f, -54.80604f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4947.063f, -1760.956f, -56.32105f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4951.963f, -1757.917f, -57.81211f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4956.822f, -1754.968f, -58.91348f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4962.327f, -1754.518f, -59.70488f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4967.886f, -1755.277f, -60.0972f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4973.597f, -1756.004f, -60.46045f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4979.174f, -1756.714f, -62.96206f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4984.863f, -1757.434f, -63.79472f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4990.422f, -1758.017f, -64.19472f, &quot;None&quot;),&#xD;&#xA;new Vector3(-4996.159f, -1758.61f, -64.5601f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5001.808f, -1759.194f, -64.90959f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5007.467f, -1759.78f, -65.24046f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5013.048f, -1760.357f, -65.50578f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5018.771f, -1760.85f, -65.76611f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5024.41f, -1761.121f, -65.88469f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5030.129f, -1761.396f, -65.77861f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5035.733f, -1761.666f, -65.96929f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5041.519f, -1761.906f, -66.08922f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5047.118f, -1761.864f, -66.14151f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5052.888f, -1761.779f, -66.28155f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5058.484f, -1761.697f, -66.3961f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5064.262f, -1761.611f, -66.56275f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5070.007f, -1761.527f, -66.82539f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5075.682f, -1761.443f, -66.64883f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5081.329f, -1761.259f, -66.54655f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5086.969f, -1760.525f, -66.06081f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5092.484f, -1759.679f, -65.84492f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5098.197f, -1758.893f, -66.01277f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5103.773f, -1758.172f, -66.21684f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5109.505f, -1757.43f, -66.37296f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5115.059f, -1756.712f, -66.71035f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5120.768f, -1755.974f, -66.61688f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5126.344f, -1755.252f, -66.9721f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5132.053f, -1754.514f, -67.0727f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5137.662f, -1753.788f, -66.73573f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5143.36f, -1753.051f, -66.20521f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5148.937f, -1752.33f, -65.53433f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5154.723f, -1751.582f, -64.62912f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5160.303f, -1751.118f, -64.01942f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5166.026f, -1751.652f, -64.13697f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5171.593f, -1752.759f, -63.53259f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5177.166f, -1753.958f, -62.95216f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5182.688f, -1755.37f, -62.07862f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5188.161f, -1756.781f, -61.20957f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5193.558f, -1758.303f, -61.43788f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5199.05f, -1760.008f, -61.28646f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5204.425f, -1761.732f, -61.44704f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5209.886f, -1763.489f, -61.63f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5215.198f, -1765.198f, -61.50863f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5220.699f, -1766.967f, -60.9493f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5226.052f, -1768.689f, -59.88451f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5231.511f, -1770.445f, -59.13738f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5236.83f, -1772.156f, -58.64414f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5242.354f, -1773.961f, -58.29956f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5247.704f, -1775.831f, -57.98014f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5253.103f, -1777.732f, -57.66549f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5258.427f, -1779.608f, -57.34542f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5263.809f, -1781.504f, -56.9747f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5269.48f, -1783.505f, -56.54417f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5274.882f, -1785.73f, -56.12997f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.672f, -1790.383f, -56.08747f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.805f, -1795.943f, -56.25375f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5275.352f, -1801.026f, -56.54032f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5273.861f, -1804.063f, -56.75131f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5272.617f, -1806.621f, -56.95696f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5270.228f, -1811.87f, -57.50336f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5267.963f, -1816.98f, -57.98408f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5265.608f, -1822.294f, -58.42688f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5264.04f, -1827.674f, -58.84684f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5262.851f, -1833.276f, -59.36341f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5260.642f, -1838.468f, -60.22651f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5258.323f, -1843.7f, -61.46826f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5256.03f, -1848.872f, -61.91851f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5253.687f, -1854.16f, -61.82035f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5251.417f, -1859.28f, -61.48907f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5249.093f, -1864.524f, -60.7394f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5246.828f, -1869.634f, -60.33181f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5244.491f, -1874.907f, -60.45619f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5242.229f, -1880.01f, -60.54757f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5239.902f, -1885.26f, -60.74293f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5237.85f, -1890.465f, -61.53748f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5236.108f, -1895.976f, -62.1246f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5234.625f, -1901.396f, -62.60201f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5233.478f, -1907.06f, -62.88524f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5232.546f, -1912.56f, -62.98213f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5231.813f, -1918.313f, -63.07191f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5231.916f, -1923.886f, -62.91579f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5232.543f, -1929.598f, -62.72565f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5233.372f, -1935.137f, -62.18309f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5234.36f, -1940.809f, -61.2532f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5235.336f, -1946.299f, -60.63806f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5236.708f, -1951.933f, -60.127f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5238.347f, -1957.282f, -59.74942f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5240.036f, -1962.791f, -59.56939f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5241.674f, -1968.136f, -59.48584f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5243.404f, -1973.639f, -59.35999f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5245.373f, -1978.869f, -59.26095f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5247.408f, -1984.269f, -59.22835f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5249.374f, -1989.488f, -59.29414f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5251.416f, -1994.906f, -59.40831f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5253.792f, -1999.999f, -59.46549f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5256.375f, -2005.131f, -59.57226f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5258.893f, -2010.133f, -59.74899f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5261.494f, -2015.307f, -59.91967f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5263.48f, -2020.53f, -60.11789f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5265.485f, -2025.914f, -60.33957f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5266.372f, -2028.297f, -60.43996f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5267.287f, -2030.753f, -60.5824f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5269.303f, -2036.169f, -60.8619f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5271.252f, -2041.407f, -61.01135f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5273.273f, -2046.835f, -61.03035f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5274.292f, -2052.483f, -61.03322f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5275.04f, -2058.192f, -61.11148f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5275.735f, -2063.5f, -61.25823f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5276.458f, -2069.022f, -61.37487f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.187f, -2074.74f, -61.07619f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.424f, -2080.403f, -60.7061f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.428f, -2086.137f, -60.31761f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.431f, -2091.835f, -59.95355f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.354f, -2097.58f, -59.59516f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.138f, -2103.165f, -58.92754f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.05f, -2108.953f, -57.88771f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.12f, -2114.519f, -56.8537f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.19f, -2120.28f, -55.74919f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.321f, -2125.98f, -54.71166f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5277.682f, -2131.661f, -53.73092f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5278.036f, -2137.238f, -53.16547f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5278.402f, -2143.005f, -52.73779f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5278.762f, -2148.67f, -52.51467f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5279.124f, -2154.356f, -52.45907f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5279.48f, -2159.974f, -52.48564f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5280.114f, -2165.693f, -52.53471f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5281.615f, -2171.109f, -52.4126f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5284.368f, -2176.087f, -52.66541f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5287.505f, -2180.698f, -53.07382f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5291.444f, -2184.848f, -53.32816f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5296.033f, -2188.112f, -53.33518f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5301.052f, -2191.059f, -53.23893f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5305.895f, -2193.894f, -53.13727f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5310.843f, -2196.791f, -53.08538f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5315.754f, -2199.665f, -53.06687f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5320.682f, -2202.549f, -53.11391f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5325.824f, -2204.655f, -53.22427f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5331.499f, -2205.62f, -53.27907f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5337.05f, -2206.541f, -53.22466f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5342.718f, -2207.481f, -53.04157f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5348.242f, -2208.397f, -53.14992f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5353.933f, -2209.341f, -53.42651f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5359.348f, -2210.815f, -53.88937f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5364.805f, -2212.752f, -54.54152f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5370.188f, -2214.663f, -55.07547f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5375.567f, -2216.208f, -55.60407f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5381.081f, -2214.601f, -55.84931f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5386.375f, -2212.701f, -55.92799f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5391.53f, -2210.509f, -55.90069f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5396.79f, -2208.254f, -56.13421f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5401.926f, -2205.915f, -56.67979f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5407.04f, -2203.274f, -57.36824f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5410.877f, -2199.71f, -57.3465f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5415.92f, -2196.958f, -57.29094f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5420.885f, -2194.368f, -57.42397f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5426.039f, -2191.752f, -57.75923f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5431.011f, -2189.107f, -58.15369f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5436.105f, -2186.33f, -58.80792f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5441.181f, -2183.978f, -59.20425f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5446.69f, -2182.272f, -59.56759f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5452.255f, -2181.182f, -59.43742f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5457.705f, -2182.403f, -58.59299f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5461.945f, -2186.148f, -57.25858f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5465.62f, -2190.515f, -56.26567f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5469.124f, -2194.884f, -55.40139f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5472.411f, -2198.981f, -54.62463f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5475.875f, -2203.301f, -54.48286f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5479.47f, -2207.739f, -54.48122f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5483.906f, -2211.165f, -54.36227f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5488.517f, -2214.668f, -54.21807f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5492.967f, -2218.049f, -53.93779f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5497.557f, -2221.536f, -53.9517f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5502.061f, -2224.958f, -53.98256f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5506.617f, -2228.42f, -54.30907f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5511.076f, -2231.808f, -55.23108f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5516.345f, -2234.036f, -55.60049f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5521.684f, -2235.652f, -56.04519f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5527.32f, -2236.685f, -56.32582f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5532.885f, -2236.13f, -56.23868f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5538.553f, -2234.999f, -56.06308f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5545.493f, -2232.914f, -55.50934f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5551.074f, -2231.522f, -55.10852f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5556.638f, -2230.652f, -55.33745f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5561.219f, -2230.342f, -55.70969f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5564.108f, -2230.839f, -55.63116f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5569.452f, -2230.216f, -55.81645f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5574.771f, -2232.453f, -57.23248f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5578.391f, -2236.688f, -57.89429f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5579.779f, -2242.164f, -56.43283f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5577.479f, -2247.243f, -54.86485f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5573.965f, -2251.703f, -53.89264f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5570.295f, -2255.933f, -53.22361f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5566.49f, -2260.289f, -52.39336f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5562.754f, -2264.566f, -52.42056f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5559.004f, -2268.858f, -52.25954f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5555.291f, -2273.109f, -52.40849f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5552.264f, -2277.877f, -52.34713f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5549.981f, -2283.04f, -52.35326f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5547.647f, -2288.315f, -52.4529f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5545.833f, -2293.576f, -51.70421f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5544.626f, -2299.175f, -51.16144f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5542.768f, -2304.493f, -51.57427f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5542.218f, -2310.17f, -51.29807f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5541.899f, -2315.865f, -50.76359f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5542.351f, -2321.503f, -50.352f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5543.814f, -2327.028f, -50.27304f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5547.56f, -2331.175f, -48.12214f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5551.667f, -2334.949f, -45.39697f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5556.394f, -2338.258f, -43.09067f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5561.16f, -2341.304f, -38.91724f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5565.962f, -2344.375f, -34.92953f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5570.261f, -2347.889f, -31.34299f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5574.532f, -2351.795f, -27.90583f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5578.69f, -2355.577f, -24.99791f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5583.174f, -2359.097f, -21.90863f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5587.065f, -2363.178f, -19.95457f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5591.519f, -2366.854f, -17.83814f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5596.581f, -2369.552f, -16.20877f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5601.655f, -2372.046f, -14.69125f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5606.851f, -2374.236f, -12.10836f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5612.373f, -2375.097f, -9.681219f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5618.156f, -2374.711f, -6.671154f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5623.756f, -2374.413f, -4.090141f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5629.441f, -2373.583f, -2.119633f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5635.143f, -2372.899f, -0.1571895f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5640.815f, -2372.524f, 1.895918f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5646.414f, -2372.832f, 2.719068f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5649.342f, -2377.154f, 2.588977f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5649.833f, -2382.777f, 1.837428f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5650.331f, -2388.488f, 0.3009425f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5650.793f, -2394.091f, -0.5137484f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5651.266f, -2399.862f, -1.174806f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5651.882f, -2405.495f, -1.650772f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5652.304f, -2411.192f, -1.981245f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5652.706f, -2416.822f, -2.170247f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5653.114f, -2422.542f, -2.208287f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5653.521f, -2428.242f, -2.090854f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5653.913f, -2433.862f, -1.842191f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5654.286f, -2439.458f, -1.455853f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5654.654f, -2445.259f, -0.8912697f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5655.167f, -2450.822f, -0.1390821f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5655.912f, -2456.53f, 1.203833f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5656.608f, -2462.059f, 2.76038f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5656.634f, -2467.806f, 2.605009f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5652.681f, -2471.197f, 3.673445f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5646.948f, -2471.406f, 6.41228f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5641.349f, -2471.329f, 9.628911f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5635.626f, -2471.704f, 13.00368f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5630.102f, -2472.712f, 16.87652f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5625.265f, -2475.678f, 20.67526f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5621.459f, -2479.811f, 24.20437f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5618.374f, -2484.634f, 27.95562f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5615.395f, -2489.336f, 30.11712f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5609.834f, -2490.302f, 30.41179f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5604.522f, -2488.652f, 30.53766f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5599.052f, -2486.736f, 28.60797f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5593.646f, -2485.076f, 27.68706f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5588.202f, -2483.307f, 26.97989f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5582.793f, -2481.506f, 26.43274f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5577.32f, -2479.684f, 26.02971f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5571.933f, -2477.89f, 25.7972f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5566.524f, -2476.089f, 25.70484f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5561.21f, -2474.32f, 25.74736f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5555.759f, -2472.505f, 25.95912f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5550.414f, -2470.726f, 26.29598f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5544.984f, -2468.917f, 26.78944f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5539.703f, -2467.159f, 27.42541f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5534.223f, -2465.323f, 28.57092f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5528.907f, -2463.53f, 30.3863f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5523.705f, -2461.154f, 30.58201f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5522.024f, -2455.965f, 30.88569f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5522.411f, -2450.188f, 31.10309f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5522.828f, -2444.57f, 31.49949f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5522.901f, -2438.838f, 30.8882f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5521.975f, -2433.348f, 30.17163f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5519.759f, -2428.026f, 30.65532f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5517.228f, -2423.056f, 31.16627f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5513.843f, -2418.408f, 32.22421f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5509.91f, -2414.203f, 33.82553f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5506.079f, -2410.145f, 35.97613f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5502.018f, -2406.083f, 39.2175f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5497.891f, -2402.217f, 42.28988f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5493.368f, -2398.77f, 46.2601f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5488.536f, -2395.874f, 50.47858f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5483.586f, -2393.01f, 54.47041f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5478.717f, -2390.22f, 56.53306f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5475.136f, -2385.918f, 57.21289f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5473.864f, -2380.438f, 56.93305f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5472.847f, -2374.806f, 55.31309f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5471.99f, -2369.25f, 54.41038f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5471.198f, -2363.548f, 53.7056f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5470.323f, -2357.892f, 53.16176f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5469.433f, -2352.295f, 52.7715f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5468.547f, -2346.72f, 52.54174f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5467.645f, -2341.046f, 52.44962f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5466.76f, -2335.482f, 52.49485f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5465.881f, -2329.838f, 52.70919f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5465.021f, -2324.282f, 53.04519f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5464.144f, -2318.626f, 53.54242f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5463.288f, -2313.103f, 54.18399f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5462.401f, -2307.382f, 55.3495f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5461.542f, -2301.882f, 57.29376f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5460.267f, -2296.248f, 57.21144f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5458.656f, -2290.791f, 56.84552f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5456.994f, -2285.323f, 57.50498f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5454.732f, -2280.242f, 59.88382f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5450.875f, -2275.979f, 63.06477f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5446.208f, -2272.867f, 67.3992f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5440.689f, -2271.317f, 72.54684f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5435.129f, -2271.723f, 77.02077f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5429.69f, -2273.603f, 81.44791f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5426.052f, -2277.885f, 84.98238f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5422.725f, -2282.542f, 88.11771f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5419.421f, -2287.133f, 89.88428f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5416.333f, -2291.966f, 89.77502f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5415.966f, -2297.483f, 89.4363f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5417.092f, -2303.113f, 89.69402f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5417.979f, -2308.664f, 88.58004f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5418.882f, -2314.345f, 86.78461f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5419.779f, -2319.986f, 86.02837f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5420.664f, -2325.55f, 85.48254f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5421.56f, -2331.191f, 85.09122f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5422.457f, -2336.832f, 84.84212f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5423.338f, -2342.374f, 84.72999f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5424.242f, -2348.063f, 84.76857f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5425.125f, -2353.616f, 84.95852f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5426.025f, -2359.279f, 85.29272f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5426.907f, -2364.824f, 85.76944f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5427.816f, -2370.543f, 86.43369f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5428.704f, -2376.129f, 87.25834f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5429.583f, -2381.789f, 88.35378f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5430.641f, -2387.264f, 89.52074f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5431.538f, -2392.95f, 88.98279f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5432.4f, -2398.517f, 89.21284f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5434.003f, -2404.03f, 89.32291f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5436.928f, -2408.778f, 89.54371f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5440.33f, -2413.456f, 89.90807f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5443.884f, -2417.994f, 89.64864f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5447.598f, -2422.269f, 89.46372f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5451.679f, -2426.288f, 89.53921f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5455.73f, -2430.178f, 89.92357f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5459.054f, -2434.827f, 89.80387f, &quot;None&quot;),&#xD;&#xA;new Vector3(-5459.19f, -2440.213f, 89.56051f, &quot;None&quot;),&#xD;&#xA;};&#xD;&#xA;&#xD;&#xA;MovementManager.Go(path);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="TurnIn" NameClass="MessagetoFreewindPost" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 30 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="var position = new Vector3(-7045.12f, -3779.27f, 10.2012f);&#xD;&#xA;int npcEntryId = 7824;&#xD;&#xA;&#xD;&#xA;if (!ObjectManager.Me.IsOnTaxi)&#xD;&#xA;{&#xD;&#xA;    if (wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(position, npcEntryId))&#xD;&#xA;    {&#xD;&#xA;        Usefuls.SelectGossipOption(GossipOptionsType.taxi);&#xD;&#xA;        Lua.RunMacroText(&quot;/click TaxiButton1&quot;);&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="300000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 30 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1980f, -4799.74f, 56.02487f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1980f, -4799.74f, 56.02487f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1980f, -4799.74f, 56.02487f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 30 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &lt; 4000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &lt; 4000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(1933.69f, -4224.86f, 42.32182f), 3344, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 30" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &lt; 5000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="grind3035" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 35 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 35 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(1933.69f, -4224.86f, 42.32182f), 3344, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 35" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="grind3540" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 40 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(1933.69f, -4224.86f, 42.32182f), 3344, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 40" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 40 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 40 &amp;&amp;  Usefuls.MapZoneName == &quot;Orgrimmar&quot;" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1676.25f, -4313.45f, 61.7176f)) &lt; 3000 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="var position = new Vector3(1676.25f, -4313.45f, 61.7176f);&#xD;&#xA;int npcEntryId = 3310;&#xD;&#xA;&#xD;&#xA;if (!ObjectManager.Me.IsOnTaxi)&#xD;&#xA;{&#xD;&#xA;    if (wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(position, npcEntryId))&#xD;&#xA;    {&#xD;&#xA;        Usefuls.SelectGossipOption(GossipOptionsType.taxi);&#xD;&#xA;        Lua.RunMacroText(&quot;/click TaxiButton4&quot;);&#xD;&#xA;    }&#xD;&#xA;}" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="300000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="grind4046" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 46 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &lt; 4000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Shaman" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &lt; 4000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(1933.69f, -4224.86f, 42.32182f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(1933.69f, -4224.86f, 42.32182f), 3344, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.WowClass == WoWClass.Priest &amp;&amp; ObjectManager.Me.Level == 46" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &lt; 5000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(294.884f, -4831.49f, 10.52426f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(294.884f, -4831.49f, 10.52426f), 3706, 1, false);" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 46 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="grind4650" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 50 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="var position = new Vector3(-7045.12f, -3779.27f, 10.2012f);&#xD;&#xA;int npcEntryId = 7824;&#xD;&#xA;&#xD;&#xA;if (!ObjectManager.Me.IsOnTaxi)&#xD;&#xA;{&#xD;&#xA;    if (wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(position, npcEntryId))&#xD;&#xA;    {&#xD;&#xA;        Usefuls.SelectGossipOption(GossipOptionsType.taxi);&#xD;&#xA;        Lua.RunMacroText(&quot;/click TaxiButton1&quot;);&#xD;&#xA;    }&#xD;&#xA;}&#xD;&#xA;" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="300000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="Pulse" NameClass="grind5056" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 56 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(3664.02f, -4390.45f, 113.0565f)) &lt; 4000 &amp;&amp; Usefuls.MapZoneName == &quot;Azshara&quot;" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(3664.02f, -4390.45f, 113.0565f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(3664.02f, -4390.45f, 113.0565f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi &amp;&amp; Usefuls.MapZoneName == &quot;Azshara&quot;" />
+    <QuestsSorted Action="RunCode" NameClass="var position = new Vector3(3664.02f, -4390.45f, 113.0565f);&#xD;&#xA;int npcEntryId = 8610;&#xD;&#xA;&#xD;&#xA;if (!ObjectManager.Me.IsOnTaxi)&#xD;&#xA;{&#xD;&#xA;    if (wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(position, npcEntryId))&#xD;&#xA;    {&#xD;&#xA;        Usefuls.SelectGossipOption(GossipOptionsType.taxi);&#xD;&#xA;        Lua.RunMacroText(&quot;/click TaxiButton1&quot;);&#xD;&#xA;    }&#xD;&#xA;}" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="300000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 56 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(-7045.12f, -3779.27f, 10.2012f)) &lt; 3000 &amp;&amp; ObjectManager.Me.WowClass == WoWClass.Warrior" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &lt; 3000 &amp;&amp; ObjectManager.Me.Position.DistanceTo2D(new Vector3(307.114f, -4839.91f, 10.52446f)) &gt; 10 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(new Vector3(307.114f, -4839.91f, 10.52446f), 3173, 1, false);" />
+    <QuestsSorted Action="RunLuaCode" NameClass="LoadAddOn&quot;Blizzard_TrainerUI&quot; f=ClassTrainerTrainButton f.e = 0 if f:GetScript&quot;OnUpdate&quot; then f:SetScript(&quot;OnUpdate&quot;, nil)else f:SetScript(&quot;OnUpdate&quot;, function(f,e) f.e=f.e+e if f.e&gt;.01 then f.e=0 f:Click() end end)end" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="5000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="If" NameClass="ObjectManager.Me.Level == 56 &amp;&amp;  Usefuls.MapZoneName == &quot;Orgrimmar&quot;" />
+    <QuestsSorted Action="While" NameClass="ObjectManager.Me.Position.DistanceTo2D(new Vector3(1676.25f, -4313.45f, 61.7176f)) &lt; 3000 &amp;&amp; !ObjectManager.Me.IsOnTaxi" />
+    <QuestsSorted Action="RunCode" NameClass="var position = new Vector3(1676.25f, -4313.45f, 61.7176f);&#xD;&#xA;int npcEntryId = 3310;&#xD;&#xA;&#xD;&#xA;if (!ObjectManager.Me.IsOnTaxi)&#xD;&#xA;{&#xD;&#xA;    if (wManager.Wow.Bot.Tasks.GoToTask.ToPositionAndIntecractWithNpc(position, npcEntryId))&#xD;&#xA;    {&#xD;&#xA;        Usefuls.SelectGossipOption(GossipOptionsType.taxi);&#xD;&#xA;        Lua.RunMacroText(&quot;/click TaxiButton4&quot;);&#xD;&#xA;    }&#xD;&#xA;}" />
+    <QuestsSorted Action="EndWhile" NameClass="" />
+    <QuestsSorted Action="Wait" NameClass="300000" />
+    <QuestsSorted Action="EndIf" NameClass="" />
+    <QuestsSorted Action="RunCode" NameClass="wManager.wManagerSetting.AddBlackListZone(new Vector3(-7273.622f, 855.3828f, 3.707741f), 80, false);" />
+    <QuestsSorted Action="Pulse" NameClass="grind5660" />
+  </QuestsSorted>
+  <NpcQuest>
+    <NPCQuest Id="3336" Name="Takrin Pathseeker" GameObject="false">
+      <PickUpQuests>
+        <int>840</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="271.805" Y="-4650.83" Z="11.70623" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3337" Name="Kargal Battlescar" GameObject="false">
+      <PickUpQuests>
+        <int>842</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>840</int>
+      </TurnInQuests>
+      <Position X="303.432" Y="-3686.16" Z="27.06707" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3464" Name="Gazrog" GameObject="false">
+      <PickUpQuests>
+        <int>869</int>
+        <int>3281</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>869</int>
+      </TurnInQuests>
+      <Position X="-435.952" Y="-2639.21" Z="96.2757" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3390" Name="Apothecary Helbrim" GameObject="false">
+      <PickUpQuests>
+        <int>848</int>
+        <int>1492</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>848</int>
+      </TurnInQuests>
+      <Position X="-424.542" Y="-2589.88" Z="95.81668" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3429" Name="Thork" GameObject="false">
+      <PickUpQuests>
+        <int>871</int>
+        <int>5041</int>
+        <int>872</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>871</int>
+        <int>5041</int>
+        <int>872</int>
+      </TurnInQuests>
+      <Position X="-473.202" Y="-2595.7" Z="103.7231" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3449" Name="Darsok Swiftdagger" GameObject="false">
+      <PickUpQuests>
+        <int>867</int>
+        <int>875</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>867</int>
+        <int>875</int>
+      </TurnInQuests>
+      <Position X="-474.894" Y="-2607.74" Z="127.7992" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3338" Name="Sergra Darkthorn" GameObject="false">
+      <PickUpQuests>
+        <int>844</int>
+        <int>845</int>
+        <int>903</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>842</int>
+        <int>844</int>
+        <int>845</int>
+        <int>903</int>
+      </TurnInQuests>
+      <Position X="-482.475" Y="-2670.19" Z="97.3497" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3448" Name="Tonga Runetotem" GameObject="false">
+      <PickUpQuests>
+        <int>870</int>
+        <int>877</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>870</int>
+      </TurnInQuests>
+      <Position X="-544.992" Y="-2672.77" Z="95.78786" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3432" Name="Mankrik" GameObject="false">
+      <PickUpQuests>
+        <int>899</int>
+        <int>4921</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="-520.983" Y="-2641.41" Z="95.78766" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3389" Name="Regthar Deathgate" GameObject="false">
+      <PickUpQuests>
+        <int>850</int>
+        <int>855</int>
+        <int>851</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>850</int>
+        <int>855</int>
+      </TurnInQuests>
+      <Position X="-307.136" Y="-1971.95" Z="96.3968" />
+    </NPCQuest>
+    <NPCQuest Id="3391" Name="Gazlowe" GameObject="false">
+      <PickUpQuests>
+        <int>887</int>
+        <int>890</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>887</int>
+      </TurnInQuests>
+      <Position X="-835.563" Y="-3728.66" Z="26.29151" />
+    </NPCQuest>
+    <NPCQuest Id="3453" Name="Wharfmaster Dizzywig" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>1492</int>
+        <int>890</int>
+      </TurnInQuests>
+      <Position X="-985.599" Y="-3796.71" Z="5.1263" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3430" Name="Mangletooth" GameObject="false">
+      <PickUpQuests>
+        <int>878</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>878</int>
+      </TurnInQuests>
+      <Position X="-2391.57" Y="-1891.09" Z="95.7553" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="3173" Name="Swart" GameObject="false">
+      <PickUpQuests>
+        <int>2985</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="307.114" Y="-4839.91" Z="10.52446" />
+    </NPCQuest>
+    <NPCQuest Id="5900" Name="Telf Joolam" GameObject="false">
+      <PickUpQuests>
+        <int>1526</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>1525</int>
+      </TurnInQuests>
+      <Position X="-269.97" Y="-4000.87" Z="168.218" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="61934" Name="Minor Manifestation of Fire" GameObject="true">
+      <PickUpQuests>
+        <int>1527</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>1526</int>
+      </TurnInQuests>
+      <Position X="-243.773" Y="-4022.4" Z="187.304" />
+    </NPCQuest>
+    <NPCQuest Id="5907" Name="Kranal Fiss" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>1527</int>
+      </TurnInQuests>
+      <Position X="262.3581" Y="-3042.615" Z="96.56094" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="5901" Name="Islen Waterseer" GameObject="false">
+      <PickUpQuests>
+        <int>1530</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>2985</int>
+      </TurnInQuests>
+      <Position X="-1345.02" Y="-4050.112" Z="5.670293" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="5899" Name="Brine" GameObject="false">
+      <PickUpQuests>
+        <int>1535</int>
+        <int>1536</int>
+      </PickUpQuests>
+      <TurnInQuests>
+        <int>1530</int>
+        <int>1535</int>
+      </TurnInQuests>
+      <Position X="-3617.51" Y="-1776.77" Z="135.5764" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="10079" Name="Brave Moonhorn" GameObject="false">
+      <PickUpQuests>
+        <int>4542</int>
+      </PickUpQuests>
+      <TurnInQuests />
+      <Position X="-4617" Y="-1851.97" Z="86.06938" Type="Flying" />
+    </NPCQuest>
+    <NPCQuest Id="10537" Name="Cliffwatcher Longhorn" GameObject="false">
+      <PickUpQuests />
+      <TurnInQuests>
+        <int>4542</int>
+      </TurnInQuests>
+      <Position X="-5454.95" Y="-2442.79" Z="90.19865" Type="Flying" />
+    </NPCQuest>
+  </NpcQuest>
+  <Npc />
+  <Blackspots />
+  <BlackGuids />
+  <EasyQuests>
+    <EasyQuest>
+      <Name>Conscript of the Horde</Name>
+      <QuestId>
+        <int>840</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>13</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Crossroads Conscription</Name>
+      <QuestId>
+        <int>842</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>crossroads fp</Name>
+      <QuestId />
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-437.137" Y="-2596" Z="95.78757" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>3615</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>true</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Fungal Spores</Name>
+      <QuestId>
+        <int>848</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1025.769" Y="-2014.37" Z="75.40054" Type="Swimming" />
+          <Vector3 X="-970.3834" Y="-2083.656" Z="81.05458" />
+          <Vector3 X="-1116.003" Y="-2170.166" Z="80.74375" />
+        </HotSpots>
+        <EntryIdObjects>
+          <int>3640</int>
+        </EntryIdObjects>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>[DEPRICATED] Wharfmaster Dizzywig</Name>
+      <QuestId>
+        <int>1492</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Disrupt the Attacks</Name>
+      <QuestId>
+        <int>871</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-112.6152" Y="-2851.318" Z="92.14021" />
+          <Vector3 X="-205.4837" Y="-2966.49" Z="91.66678" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3267</int>
+          <int>3265</int>
+          <int>3268</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Harpy Raiders</Name>
+      <QuestId>
+        <int>867</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="347.8009" Y="-1551.103" Z="92.00584" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3276</int>
+          <int>3277</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Plainstrider Menace</Name>
+      <QuestId>
+        <int>844</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-438.7081" Y="-2796.785" Z="92.68707" />
+          <Vector3 X="-562.9486" Y="-2770.617" Z="93.40302" />
+          <Vector3 X="-785.9273" Y="-2880.967" Z="91.89101" />
+          <Vector3 X="-713.9526" Y="-3134.106" Z="94.68001" />
+          <Vector3 X="-555.634" Y="-2903.009" Z="91.66814" />
+          <Vector3 X="-452.4065" Y="-2808.783" Z="91.98311" />
+          <Vector3 X="-382.253" Y="-2811.59" Z="93.1771" />
+          <Vector3 X="-327.2073" Y="-2833.273" Z="92.44231" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3244</int>
+          <int>3246</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Forgotten Pools</Name>
+      <QuestId>
+        <int>870</int>
+      </QuestId>
+      <QuestType>Gatherer</QuestType>
+      <QuestClass xsi:type="GathererEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="90.67603" Y="-1938.502" Z="79.7795" Type="Swimming" />
+        </HotSpots>
+        <EntryIdObjects />
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Raptor Thieves</Name>
+      <QuestId>
+        <int>869</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="66.13612" Y="-2594.43" Z="92.02794" />
+          <Vector3 X="10.3997" Y="-2316.44" Z="91.9344" />
+          <Vector3 X="-144.6481" Y="-2224.603" Z="91.7253" />
+          <Vector3 X="-434.6674" Y="-2002.301" Z="92.37484" />
+          <Vector3 X="-646.5063" Y="-1911.329" Z="92.80239" />
+          <Vector3 X="-729.0497" Y="-1851.194" Z="93.51096" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3254</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>[DEPRECATED] Stolen Silver</Name>
+      <QuestId>
+        <int>3281</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Zhevra</Name>
+      <QuestId>
+        <int>845</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-275.6839" Y="-2015.758" Z="95.59319" />
+          <Vector3 X="-217.4392" Y="-2115.872" Z="91.79398" />
+          <Vector3 X="-120.89" Y="-2079.875" Z="92.82838" />
+          <Vector3 X="-149.0495" Y="-2180.638" Z="92.00284" />
+          <Vector3 X="-53.51846" Y="-2103.148" Z="91.67598" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3242</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Consumed by Hatred</Name>
+      <QuestId>
+        <int>899</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Lost in Battle</Name>
+      <QuestId>
+        <int>4921</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Harpy Lieutenants</Name>
+      <QuestId>
+        <int>875</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="577.467" Y="-1377.325" Z="91.68844" />
+          <Vector3 X="667.866" Y="-1295.09" Z="91.69005" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3278</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Prowlers of the Barrens</Name>
+      <QuestId>
+        <int>903</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-950.8229" Y="-1808.868" Z="91.66806" />
+          <Vector3 X="-627.7587" Y="-1702.992" Z="91.68762" />
+          <Vector3 X="-330.2502" Y="-1668.665" Z="94.15674" />
+          <Vector3 X="-196.8676" Y="-1536.936" Z="91.69933" />
+          <Vector3 X="67.9893" Y="-1508.81" Z="91.68586" />
+          <Vector3 X="191.573" Y="-1535.1" Z="91.66592" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3425</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>The Stagnant Oasis</Name>
+      <QuestId>
+        <int>877</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Verog the Dervish</Name>
+      <QuestId>
+        <int>851</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grindto14</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-475.4113" Y="-2812.16" Z="91.70092" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3244</int>
+          <int>3415</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>13</MaxLevel>
+      <MinLevel>10</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Grind1825</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-3088.724" Y="-2028.099" Z="92.53934" />
+          <Vector3 X="-2890.752" Y="-2181.442" Z="93.0615" />
+          <Vector3 X="-2479.043" Y="-2442.349" Z="92.7681" />
+          <Vector3 X="-2421.438" Y="-2266.254" Z="94.93148" />
+          <Vector3 X="-2276.818" Y="-2290.161" Z="92.70407" />
+          <Vector3 X="-2534.598" Y="-2004.784" Z="91.69097" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3466</int>
+          <int>3239</int>
+          <int>3424</int>
+          <int>3236</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>24</MaxLevel>
+      <MinLevel>17</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind2530</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-5144.568" Y="-1345.151" Z="-50.32915" />
+          <Vector3 X="-4699.271" Y="-1256.684" Z="-51.82642" />
+          <Vector3 X="-5604.034" Y="-2222.646" Z="-59.43716" />
+          <Vector3 X="-5710.772" Y="-2532.333" Z="-53.70943" />
+          <Vector3 X="-5180.032" Y="-2452.704" Z="-52.4817" />
+        </HotSpots>
+        <EntryTarget>
+          <int>4118</int>
+          <int>4248</int>
+          <int>4124</int>
+          <int>4100</int>
+          <int>4114</int>
+          <int>4119</int>
+          <int>4120</int>
+          <int>4097</int>
+          <int>4099</int>
+          <int>4095</int>
+          <int>4112</int>
+          <int>4126</int>
+          <int>10757</int>
+          <int>10617</int>
+          <int>4117</int>
+          <int>4093</int>
+          <int>4094</int>
+          <int>4096</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>29</MaxLevel>
+      <MinLevel>25</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind3035</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-743.1451" Y="2150.959" Z="97.96323" />
+          <Vector3 X="-583.4711" Y="2080.304" Z="90.56235" />
+          <Vector3 X="-601.4687" Y="1579.888" Z="92.00168" />
+          <Vector3 X="-158.4686" Y="1615.015" Z="89.62809" />
+          <Vector3 X="-69.26237" Y="1396.823" Z="89.4639" />
+          <Vector3 X="-87.76678" Y="1018.636" Z="91.01431" />
+          <Vector3 X="-280.2117" Y="811.0544" Z="90.80717" />
+          <Vector3 X="-605.3076" Y="1024.783" Z="92.39629" />
+        </HotSpots>
+        <EntryTarget>
+          <int>4728</int>
+          <int>11576</int>
+          <int>4696</int>
+          <int>4700</int>
+          <int>4726</int>
+          <int>4692</int>
+          <int>4671</int>
+          <int>4672</int>
+          <int>4673</int>
+          <int>4675</int>
+          <int>4670</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>34</MaxLevel>
+      <MinLevel>29</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind3540</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-2031.085" Y="1327.418" Z="63.61579" />
+          <Vector3 X="-2280.752" Y="1410.621" Z="64.75739" />
+        </HotSpots>
+        <EntryTarget>
+          <int>4727</int>
+          <int>4676</int>
+          <int>4700</int>
+          <int>4699</int>
+          <int>11578</int>
+          <int>4694</int>
+          <int>11561</int>
+          <int>11559</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>39</MaxLevel>
+      <MinLevel>34</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind4046</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-6964.476" Y="-4344.015" Z="11.6623" />
+          <Vector3 X="-6780.392" Y="-4831.219" Z="0.6689232" />
+          <Vector3 X="-7218.626" Y="-4869.305" Z="0.6944853" />
+          <Vector3 X="-7243.68" Y="-4614.446" Z="8.601913" />
+          <Vector3 X="-7460.045" Y="-4498.457" Z="8.39176" />
+          <Vector3 X="-7387.64" Y="-4390.8" Z="9.875675" />
+          <Vector3 X="-7559.727" Y="-4283.413" Z="9.042511" />
+          <Vector3 X="-7691.427" Y="-4395.308" Z="9.47335" />
+          <Vector3 X="-7694.229" Y="-4226.308" Z="9.433485" />
+          <Vector3 X="-7611.842" Y="-3875.653" Z="10.44707" />
+          <Vector3 X="-7430.376" Y="-3451.479" Z="11.63033" />
+          <Vector3 X="-7158.727" Y="-2929.105" Z="10.4018" />
+          <Vector3 X="-7049.785" Y="-2785.227" Z="9.819744" />
+          <Vector3 X="-7051.3" Y="-4032.054" Z="9.55565" />
+        </HotSpots>
+        <EntryTarget>
+          <int>5616</int>
+          <int>5422</int>
+          <int>14123</int>
+          <int>5425</int>
+          <int>5617</int>
+          <int>5623</int>
+          <int>5426</int>
+          <int>5423</int>
+          <int>5419</int>
+          <int>5428</int>
+          <int>9396</int>
+          <int>5647</int>
+          <int>5645</int>
+          <int>5646</int>
+          <int>5618</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>45</MaxLevel>
+      <MinLevel>40</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind4650</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-8941.498" Y="-2188.563" Z="8.87695" />
+          <Vector3 X="-9325.737" Y="-2308.327" Z="10.66758" />
+          <Vector3 X="-9431.957" Y="-2319.969" Z="11.42723" />
+          <Vector3 X="-9134.188" Y="-2752.675" Z="28.57619" />
+          <Vector3 X="-8545.742" Y="-2845.988" Z="10.25797" />
+          <Vector3 X="-8475.286" Y="-2917.445" Z="8.745861" />
+          <Vector3 X="-8262.51" Y="-2943.894" Z="11.1845" />
+        </HotSpots>
+        <EntryTarget>
+          <int>5481</int>
+          <int>5485</int>
+          <int>5490</int>
+          <int>5421</int>
+          <int>5427</int>
+          <int>9397</int>
+          <int>5430</int>
+          <int>5424</int>
+          <int>5420</int>
+          <int>5472</int>
+          <int>5475</int>
+          <int>5473</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>49</MaxLevel>
+      <MinLevel>46</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind5056</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="4531.095" Y="-5642.399" Z="108.7566" />
+          <Vector3 X="4583.359" Y="-6114.56" Z="102.5101" />
+          <Vector3 X="4805.046" Y="-6598.235" Z="99.93723" />
+          <Vector3 X="4471.621" Y="-6565.403" Z="103.6137" />
+          <Vector3 X="4405.592" Y="-6218.969" Z="95.83202" />
+          <Vector3 X="4255.746" Y="-5760.793" Z="103.1331" />
+        </HotSpots>
+        <EntryTarget>
+          <int>6378</int>
+          <int>6189</int>
+          <int>6188</int>
+          <int>6187</int>
+          <int>8761</int>
+          <int>6200</int>
+          <int>6202</int>
+          <int>6201</int>
+          <int>8764</int>
+          <int>6379</int>
+          <int>6380</int>
+          <int>6198</int>
+          <int>6199</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>55</MaxLevel>
+      <MinLevel>50</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>grind5660</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-7846.82" Y="959.1477" Z="2.967018" />
+          <Vector3 X="-7842.017" Y="1816.446" Z="2.362" />
+          <Vector3 X="-7360.555" Y="1210.042" Z="-1.474875" />
+          <Vector3 X="-6631.828" Y="1254.942" Z="3.633657" />
+          <Vector3 X="-6614.84" Y="1513.67" Z="3.964179" />
+        </HotSpots>
+        <EntryTarget>
+          <int>11698</int>
+          <int>11724</int>
+          <int>11741</int>
+          <int>11736</int>
+          <int>11737</int>
+          <int>11739</int>
+          <int>11745</int>
+          <int>14477</int>
+          <int>11747</int>
+          <int>11881</int>
+          <int>11880</int>
+          <int>11735</int>
+          <int>11738</int>
+          <int>11744</int>
+          <int>14455</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>61</MaxLevel>
+      <MinLevel>56</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Southsea Freebooters</Name>
+      <QuestId>
+        <int>887</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots />
+        <EntryTarget />
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>RatchetFp</Name>
+      <QuestId />
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-898.686" Y="-3773.07" Z="11.70381" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>-1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>16227</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Grind1518</Name>
+      <QuestId />
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-1371.935" Y="-3717.913" Z="81.11038" />
+          <Vector3 X="-1543.099" Y="-3711.794" Z="91.82275" />
+          <Vector3 X="-1605.019" Y="-3688.989" Z="91.5978" />
+          <Vector3 X="-1699.528" Y="-3615.867" Z="91.70361" />
+          <Vector3 X="-1901.855" Y="-3301.396" Z="70.93479" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3381</int>
+          <int>3382</int>
+          <int>3383</int>
+          <int>3384</int>
+          <int>3245</int>
+          <int>3426</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>true</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>17</MaxLevel>
+      <MinLevel>13</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>[DEPRECATED]The Missing Shipment</Name>
+      <QuestId>
+        <int>890</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Tribes at War</Name>
+      <QuestId>
+        <int>878</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-2077.226" Y="-1920.682" Z="95.04123" />
+          <Vector3 X="-1908.294" Y="-1790.624" Z="93.19952" />
+          <Vector3 X="-1661.47" Y="-1761.42" Z="91.66635" />
+          <Vector3 X="-2247.084" Y="-2579.224" Z="93.45771" />
+          <Vector3 X="-1973.211" Y="-2747.784" Z="91.67559" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3260</int>
+          <int>3258</int>
+          <int>3247</int>
+          <int>3263</int>
+          <int>3261</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>true</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>23</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>taurajofp</Name>
+      <QuestId />
+      <QuestType>InteractWithNpc</QuestType>
+      <QuestClass xsi:type="InteractWithNpcEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-2384.08" Y="-1880.94" Z="95.85041" />
+        </HotSpots>
+        <GossipOptionNpcInteractWith>-1</GossipOptionNpcInteractWith>
+        <Macro />
+        <IgnoreIfDead>false</IgnoreIfDead>
+        <EntryIdTarget>
+          <int>10378</int>
+        </EntryIdTarget>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>25</MaxLevel>
+      <MinLevel>1</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Water</Name>
+      <QuestId>
+        <int>2985</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Fire2</Name>
+      <QuestId>
+        <int>1525</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="929.706" Y="-4719.18" Z="19.94475" />
+        </HotSpots>
+        <EntryTarget>
+          <int>3199</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>true</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Fire41</Name>
+      <QuestId>
+        <int>1526</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-254.8911" Y="-3980.106" Z="168.6469" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>6636</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition>return (!ItemsManager.HasItemById(6636));</IsCompleteCondition>
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Fire42</Name>
+      <QuestId>
+        <int>1526</int>
+      </QuestId>
+      <QuestType>KillAndLoot</QuestType>
+      <QuestClass xsi:type="KillAndLootEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-246.258" Y="-4009.98" Z="187.293" />
+        </HotSpots>
+        <EntryTarget>
+          <int>5893</int>
+        </EntryTarget>
+        <IsGrinderNotQuest>false</IsGrinderNotQuest>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Fire5</Name>
+      <QuestId>
+        <int>1527</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Water2</Name>
+      <QuestId>
+        <int>1530</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>false</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Water3</Name>
+      <QuestId>
+        <int>1535</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots>
+          <Vector3 X="-3584.182" Y="-1858.301" Z="88.62337" Type="Swimming" />
+          <Vector3 X="-3578.158" Y="-1860.221" Z="88.64846" Type="Swimming" />
+        </HotSpots>
+        <EntryIdTarget />
+        <ItemId>7766</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Call of Water4</Name>
+      <QuestId>
+        <int>1536</int>
+      </QuestId>
+      <QuestType>UseItemOn</QuestType>
+      <QuestClass xsi:type="UseItemOnEasyQuestClass">
+        <HotSpots />
+        <EntryIdTarget />
+        <ItemId>0</ItemId>
+        <Range>4.5</Range>
+      </QuestClass>
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>100</MaxLevel>
+      <MinLevel>0</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+    <EasyQuest>
+      <Name>Message to Freewind Post</Name>
+      <QuestId>
+        <int>4542</int>
+      </QuestId>
+      <QuestType>None</QuestType>
+      <QuestClass />
+      <ObjectiveCount1>0</ObjectiveCount1>
+      <ObjectiveCount2>0</ObjectiveCount2>
+      <ObjectiveCount3>0</ObjectiveCount3>
+      <ObjectiveCount4>0</ObjectiveCount4>
+      <ObjectiveCount5>0</ObjectiveCount5>
+      <AutoDetectObjectiveCount1>true</AutoDetectObjectiveCount1>
+      <AutoDetectObjectiveCount2>false</AutoDetectObjectiveCount2>
+      <AutoDetectObjectiveCount3>false</AutoDetectObjectiveCount3>
+      <AutoDetectObjectiveCount4>false</AutoDetectObjectiveCount4>
+      <AutoDetectObjectiveCount5>false</AutoDetectObjectiveCount5>
+      <CanCondition />
+      <IsCompleteCondition />
+      <RepeatableQuest>false</RepeatableQuest>
+      <NotRequiredInQuestLog>false</NotRequiredInQuestLog>
+      <PickUpQuestOnItem>false</PickUpQuestOnItem>
+      <PickUpQuestOnItemID>0</PickUpQuestOnItemID>
+      <Comment />
+      <GossipOptionRewardItem>1</GossipOptionRewardItem>
+      <RequiredQuest>0</RequiredQuest>
+      <MaxLevel>33</MaxLevel>
+      <MinLevel>20</MinLevel>
+      <WoWClass>None</WoWClass>
+    </EasyQuest>
+  </EasyQuests>
+</EasyQuestProfile>
